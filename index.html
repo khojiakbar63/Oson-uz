@@ -16,9 +16,9 @@
   
   </head>
   <body>
-    <header class="bg-[#00008C] relative h-[101px]">
+    <header class="bg-[#00008C] fixed top-0 right-0 left-0 h-[101px] z-50">
       <div class="container-fluid px-[200px] mx-auto">
-        <nav class="flex items-center justify-between h-[101px]">
+        <nav class="flex items-center justify-between h-[101px]  ">
             <a href="./index.html"><img class="logo mb-3 cursor-pointer border-b-2 border-red-50" src="./public/logo.svg" alt="logo"></a>
             <ul class="flex gap-[32px] text-white ">
               <li><a class="hover:bg-blue-900 font-sans py-2 hover:text-blue-200 duration-150" href="./pages/tradition/index.html">Bizning Anana</a></li>
@@ -34,7 +34,7 @@
         </nav>
       </div>
     </header>
-
+    <!-- intro section start -->
     <section id="intro" class="bg-[#00008C] pt-[119px]">
       <div class="container-fluid px-[200px] mx-auto">
 
@@ -57,7 +57,7 @@
           </div>
   
           <div class="w-[50%]">
-            <img class="hover:scale-105 duration-200 mix-blend-luminosity -mt-[70px]" src="./assets/icons/introimage.svg" alt="introimage">
+            <img class="hover:scale-105 duration-200 mix-blend-luminosity -mt-[70px]  animate-pulse" src="./assets/icons/introimage.svg" alt="introimage">
           </div>
         </div>
 
@@ -88,6 +88,29 @@
 
       </div>
     </section>
+    <!-- intro section end -->
+
+    <!-- wallet section start -->
+    <section id="wallet">
+      <div class="container-fluid px-[200px] mx-auto">
+
+        <div class="flex pt-[194px] pb-[254px]">
+          <div class="w-[50%]">
+            <h1 class="font-[700] text-[50px] text-[#00008C] mb-4 leading-[60px] w-[509px]">OSON  elektron Hamyon</h1>
+            <p class="text-[#636376] font-[400] w-[485px] mb-[68px]">Har qanday UzCARD, HUMO, Visa, MasterCard kartalari orqali mahhaliy yoki xalqaro kartalarni bog’lashingiz mumkin</p>
+            
+            <button class="py-[35px] px-[99px] bg-[#00008C] text-white rounded-full hover:bg-gradient-to-r from-[#00008C] to-[#68688e] hover:duration-300">+ yaratish</button>
+         
+          </div>
+
+          <img class="w-[544px] -mt-[100px] animate-pulse" src="./assets/icons/wallet.jpeg" alt="wallet">
+
+        </div>
+
+      </div>
+    </section>
+    <!-- wallet section end -->
+
 
   </body>
 
